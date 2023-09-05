@@ -6,12 +6,9 @@ si trabajo un total de 36 horas, calcular una solución algorítmica que permita
 public class Ejercicio2 {
     static double salarioTotal = 1056028;
     static int horasTrabajadas = 36;
-    static double valorHora;
+    static double valorHora = salarioTotal / horasTrabajadas;;
 
-    public static double calcularValorHora() {
-        return valorHora = salarioTotal / horasTrabajadas;
-    }
     public static void main(String[] args) {
-        System.out.println("VALOR POR HORA: $" + calcularValorHora());
+        System.out.println("VALOR POR HORA: $" + valorHora);
     }
 }
