@@ -38,7 +38,7 @@ public class Ejercicio1 {
         System.out.println("==============");
         System.out.println("SALARIO TOTAL: $" + calcularSalarioTotal(horasTrabajadas, valorHora));
         System.out.println("==============");
-        System.out.println("MONTO RETENIDO EN FUNETE: $" + calcularRetencionFuente());
+        System.out.println("MONTO RETENIDO EN FUENTE: $" + calcularRetencionFuente());
         System.out.println("==============");
         System.out.println("SALARIO NETO: $" + calcularSalarioNeto());
     }
