@@ -18,24 +18,12 @@ public class EjercicioC3 {
         enteroDividido = entero / 5;
 
         for (int i = 0; i < 5; i++) {
-            switch (i) {
-                case 0:
-                    arrayInt.add((int) Math.pow(enteroDividido, 2));
-                    break;
-                case 1:
-                    arrayInt.add(enteroDividido);
-                    break;
-                case 2:
-                    arrayInt.add(enteroDividido);
-                    break;
-                case 3:
-                    arrayInt.add(enteroDividido);
-                    break;
-                case 4:
-                    arrayInt.add((int) Math.pow(enteroDividido, 2));
-                    break;
-            }
+            arrayInt.add(enteroDividido); 
         }
+
+        arrayInt.set(0, (int) Math.pow(enteroDividido, 2));
+        arrayInt.set(4, (int) Math.pow(enteroDividido, 2));
+        
         System.out.println(arrayInt);
     }
 
